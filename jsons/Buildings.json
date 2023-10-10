@@ -1,0 +1,20 @@
+[
+        {
+                "name": "Palace",
+                "isNationalWonder": true,
+                "production": 3,
+		"science": 3,
+		"gold": 3,
+		"culture": 1,
+		"cityStrength": 2,
+		"cost": 1,
+		"uniques": ["[-3 Production, -3 Science, -3 Gold, -1 Culture] [in this city] <if [New Government] is constructed>","Limited to [1] per Civilization","Indicates the capital city <without [Updated]>","Unbuildable <in cities with a [New Government]>"]
+        },
+        {
+                "name": "New Government",
+                "isNationalWonder": true,
+		"cityStrength": 2,
+		"cost": 1,
+		"uniques": ["[+3 Production, +3 Science, +3 Gold, +1 Culture] [in this city]","[-1 Happiness] [in all cities]","Limited to [1] per Civilization","Indicates the capital city","Unbuildable <in cities with a [Palace]>","Provides [1] [Updated]"]
+        },
+]
