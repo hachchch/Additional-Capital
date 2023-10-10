@@ -1,8 +1,0 @@
-[
-        {
-                "name": "Updated",
-                "resourceType": "Luxury",
-		"science": 1,
-		"uniques": ["Cannot be traded","Not shown on world screen"]
-        }
-]
